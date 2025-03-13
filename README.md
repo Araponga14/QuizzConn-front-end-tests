@@ -34,4 +34,6 @@ Por fim, execute o comando abaixo para iniciar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
+
+Ctrl + o
 ```
