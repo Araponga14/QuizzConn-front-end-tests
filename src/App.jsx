@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import { useEffect } from "react";
 
 import Home from "./pages/Home";
 import Class from "./pages/Class";
@@ -8,6 +9,13 @@ import CreateQuiz from "./pages/CreateQuiz";
 import QuizList from "./pages/QuizList";
 
 function App() {
+  // Configuração para expandir o Telegram
+  useEffect(() => {
+    if (window.Telegram?.WebApp) {
+      window.Telegram.WebApp.expand(); // Expande para tela cheia
+    }
+  }, []);
+
   return (
     <Router>
       {/* Navbar para navegação */}
