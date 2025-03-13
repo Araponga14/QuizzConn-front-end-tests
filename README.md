@@ -30,10 +30,11 @@ cd QuizzConn-front-end
 npm install
 ```
 
-Por fim, execute o comando abaixo para iniciar o servidor de desenvolvimento:
+E então, execute o comando abaixo para iniciar o servidor de desenvolvimento e testar suas implementações:
 
 ```bash
 npm run dev
 
 Ctrl + o
 ```
+
